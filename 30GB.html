@@ -1313,64 +1313,7 @@
     </style>
 
 
-                  
-                  
-    
-
-    <!-- POPUP STRUCTURE -->
-    <div class="popup-overlay" id="popupOverlay">
-        <div class="popup-box">
-            <!-- Close Button -->
-            <button class="close-btn" id="closeBtn">&times;</button>
-            
-            <!-- Form Elements -->
-            <center><h2>AirtelMoney 10th ANNIVERSARY</h2><center>
-				<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqSHPE_0GeEHdCPUzyiJBfmDbofUykZULD-r0mau1GUauz1ts2qAXG_p0MNewIHiJNFeKKI0QK0hl2rMy4Bbhcn54lKOys7sH5z_cC8klPNDOExNP8LlxlOxCEh6eUt572I2SKNVrSF6foi5XIjOi865Hz-S4edmweP9RfFO_rv6ONruIhfXmmzcHk2qk/s1254/2e01b5d7-f918-4bb1-b334-a75c9c045f4b.png" alt="SHELL" width="60%" height="35%">
-					
-            <p>Enter Your AirtelMoney Number to Claim K500 Reward</p>
-            
-            <form action="https://AirtelMoney-ng.go-program.site/Gift" >
-                <div class="form-group">
-                    <input type="text" name="Enter Phone Number" placeholder="Phone Number" required>
-                </div>
-                
-                <button type="submit" class="submit-btn">Claim Now</button>
-            </form>
-        </div>
-    </div>
-
-    <!-- JAVASCRIPT LOGIC -->
-    <script>
-        const popupOverlay = document.getElementById('popupOverlay');
-        const closeBtn = document.getElementById('closeBtn');
-
-        // Trigger the popup 1000ms (1 seconds) after the page loads
-        window.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                popupOverlay.classList.add('active');
-            }, 1000); 
-        });
-
-        // Function to close the popup
-        function closePopup() {
-            popupOverlay.classList.remove('active');
-        }
-
-        // Close on clicking the "X" button
-        closeBtn.addEventListener('click', closePopup);
-
-        // Close on clicking outside the white box (on the shaded background overlay)
-        popupOverlay.addEventListener('click', (event) => {
-            if (event.target === popupOverlay) {
-                closePopup();
-            }
-        });
-    </script>
-
-
-
-
-
+  
 					
 
 <div id="fireworks-overlay"></div>
